@@ -1,0 +1,36 @@
+.content-wrapper{
+  max-width: 900px;
+}
+
+.content-wrapper > h1 {
+  font-size: 80px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.content-text {
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 4%;
+}
+
+.extra-links{
+  margin-top: 4%;
+  display: flex;
+  gap: 20px;
+}
+
+.extra-links>a {
+  color: #ffffff;
+  border: 2px solid red;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.extra-links>a:hover{
+  background-color: red;
+  transition-duration: 0.3s;
+}

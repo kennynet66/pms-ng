@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+}
+.card > img {
+  width: 400px;
+  height: 600px;
+  object-fit: cover;
+}
+.form {
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.register-form{
+  min-width: 350px;
+  width: max-content;
+}
+.input-div >input{
+  width: 90%;
+  padding: 10px;
+  margin: 4%;
+  border-radius: 5px;
+}
+.login-btn{
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid red;
+  cursor: pointer;
+  background-color: red;
+  color: #ffffff;
+}
+.login-btn:hover {
+  background-color: transparent;
+  transition-duration: 0.3s;
+  color: #000000;
+}

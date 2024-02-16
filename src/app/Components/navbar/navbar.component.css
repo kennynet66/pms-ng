@@ -1,0 +1,36 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 5vh;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo{
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.links >li >a{
+  background-color: red;
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 10px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.links>li>a:hover {
+  background-color: transparent;
+  transition-duration: 0.3s;
+}
+

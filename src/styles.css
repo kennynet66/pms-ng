@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('./assets/pexels-sora-shimazaki-5926398.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 80vw;
+  height: 100vh;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 4%;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
