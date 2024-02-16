@@ -16,6 +16,7 @@ nav{
 
 .links {
   display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   gap: 20px;
 }
@@ -34,3 +35,8 @@ nav{
   transition-duration: 0.3s;
 }
 
+@media(max-width: 425px){
+  .links{
+    display: none;
+  }
+}

@@ -26,3 +26,8 @@ body {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 425px){
+  .container{
+    width: 100vw;
+  }
+}
